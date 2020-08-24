@@ -2,7 +2,7 @@
 	color: #666;
 	opacity: 1;
 }
-*:-moz-placeholder {
+*:-moz-placeholder { 
 	color: #666;
 	opacity: 1;
 }
@@ -22,7 +22,7 @@ body textarea:focus:required:invalid {
 body input:required:valid,
 body textarea:required:valid {
 	
-}
+} 
 body {
 	font-family: "SFUIDisplay-Regular";
 	font-size: 16px;
