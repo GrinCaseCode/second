@@ -24,6 +24,18 @@ $(document).ready(function() {
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
+	$('.catalog-sidebar__btn').click(function() {
+		$('.catalog-sidebar').addClass("catalog-sidebar_mob")
+		if ($(".catalog-sidebar li:not('.active')").is(":hidden")) {
+			$(".catalog-sidebar li:not('.active')").slideDown(200);
+		} else {
+			$(".catalog-sidebar li:not('.active')").slideUp(200);
+		}
+		$('.catalog-sidebar_mob li').click(function() {
+			$(".catalog-sidebar_mob li:not('.active')").slideUp(200);
+		});
+	});
+
 /*высота блока по экрану*/
     function heightDetect() {
       $('.header__bottom').css("height", $(window).height() -$(".header").height() + 40);
@@ -78,6 +90,38 @@ $(document).ready(function() {
 		]
 	});
 
+    jQuery('.quantity').each(function() {
+      var spinner = jQuery(this),
+        input = spinner.find('input[type="number"]'),
+        btnUp = spinner.find('.quantity-up'),
+        btnDown = spinner.find('.quantity-down'),
+        min = input.attr('min'),
+        max = input.attr('max');
+
+      btnUp.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue >= max) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue + 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+
+      btnDown.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue <= min) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue - 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+
+    });
+
 
 	//Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
@@ -103,6 +147,15 @@ $(document).ready(function() {
 			$(this).siblings(".mobile-tab").slideUp(200);
 			$(this).removeClass("active");
 		}
+	});
+
+	$('.tabs-card li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).addClass('active');
+		$(".tab-pane-card").hide();
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn();
 	});
 
 
