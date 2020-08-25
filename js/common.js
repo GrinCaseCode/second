@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".article__list li a").mPageScroll2id();
 
 
 	//кнопка sandwich
