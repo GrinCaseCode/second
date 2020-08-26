@@ -2072,143 +2072,7 @@ table {
 .price {
 	padding-bottom: 60px;
 }
-.contacts-caption{
-	font-family: "SFUIDisplay-Medium";
-	font-size: 20px;
-	margin-bottom: 8px;
-}
-.contacts-text span{
-	line-height: 30px;
-}
-.contacts-text{
-	line-height: 24px;
-	margin-bottom: 10px;
-}
-.contacts-phone{
-	display: flex;
-	align-items: center;
-}
-.contacts-phone .contacts-text {
-	margin-bottom: 0;
-}
-.contacts-social{
-	display: flex;
-	justify-content: space-between;
-}
-.contacts-btn {
-	width: 30px;
-	height: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	margin-right: 10px;
-}
-.contacts-social__viber{
-	background-color: #7a5398;
-	margin-left: 18px;
-}
-.contacts-social__whatsapp{
-	background-color: #61d170;
 
-}
-.contacts-social__telegram{
-	background-color: #32b9e6;
-}
-.contacts-btn i {
-	font-size: 18px;
-	color: #fff;
-}
-.contacts-item {
-	margin-top: 15px;
-}
-.contacts-item_flex {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-}
-.social__networks {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0px 6px 0px 0px;
-}
-.social__networks li {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 29px;
-	height: 29px;
-	background-color: #999999;
-	border-radius: 50%;
-	margin-left: 12px;
-}
-.social__networks li a {
-	font-size: 15px;
-	color: #fff;
-	display: inline-block;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.social__networks li a:hover {
-	transform: scale(1.1);
-}
-.wrap-social__networks {
-	display: inline-block;
-}
-
-
-.contacts-info__requisites {
-	margin-left: 15px;
-}
-.contacts-info__requisites p {
-	margin-bottom: 8px;
-}
-.contacts {
-	padding-top: 20px;
-	padding-bottom: 50px;
-}
-.block-form {
-	height: auto;
-	box-shadow: 0 13px 27px rgba(150, 149, 148, 0.36);
-	border-radius: 6px;
-	background-color: #ffffff;
-	padding: 26px 35px 27px 35px;
-	display: block;
-}
-.block-form__title {
-	color: #000000;
-	font-family: "SFUIDisplay-Medium";
-	font-size: 23px;
-	text-align: center;
-	margin-bottom: 15px;
-}
-.block-form .btn-main {
-	width: 100%;
-}
-#map{
-	width: 100%; 
-	height: 500px;
-}
-.block-form .item-form textarea {
-	height: 103px;
-}
-.contacts-info {
-	margin-top: 38px;
-}
-.contacts .block-form {
-	max-width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 /* Conpany */
 
@@ -2382,4 +2246,142 @@ margin: 0px 0px 35px 0px;
 }
 .company .item-service {
 	margin-bottom: 45px;
+}
+
+.contacts-caption{
+	font-family: "SFUIDisplay-Medium";
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+.contacts-text span{
+	line-height: 30px;
+}
+.contacts-text{
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+.contacts-phone{
+	display: flex;
+	align-items: center;
+}
+.contacts-phone .contacts-text {
+	margin-bottom: 0;
+}
+.contacts-social{
+	display: flex;
+	justify-content: space-between;
+}
+.contacts-btn {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-right: 10px;
+}
+.contacts-social__viber{
+	background-color: #7a5398;
+	margin-left: 18px;
+}
+.contacts-social__whatsapp{
+	background-color: #61d170;
+
+}
+.contacts-social__telegram{
+	background-color: #32b9e6;
+}
+.contacts-btn i {
+	font-size: 18px;
+	color: #fff;
+}
+.contacts-item {
+	margin-top: 15px;
+}
+.contacts-item_flex {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.social__networks {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 6px 0px 0px;
+}
+.social__networks li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 29px;
+	height: 29px;
+	background-color: #999999;
+	border-radius: 50%;
+	margin-left: 12px;
+}
+.social__networks li a {
+	font-size: 15px;
+	color: #fff;
+	display: inline-block;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.social__networks li a:hover {
+	transform: scale(1.1);
+}
+.wrap-social__networks {
+	display: inline-block;
+}
+
+
+.contacts-info__requisites {
+	margin-left: 15px;
+}
+.contacts-info__requisites p {
+	margin-bottom: 8px;
+}
+.contacts {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.block-form {
+	height: auto;
+	box-shadow: 0 13px 27px rgba(150, 149, 148, 0.36);
+	border-radius: 6px;
+	background-color: #ffffff;
+	padding: 26px 35px 27px 35px;
+	display: block;
+}
+.block-form__title {
+	color: #000000;
+	font-family: "SFUIDisplay-Medium";
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.block-form .btn-main {
+	width: 100%;
+}
+#map{
+	width: 100%; 
+	height: 500px;
+}
+.block-form .item-form textarea {
+	height: 103px;
+}
+.contacts-info {
+	margin-top: 38px;
+}
+.contacts .block-form {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
