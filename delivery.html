@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.7" />
+	<link rel="stylesheet" href="css/media.css?ver=1.7" />
+</head>
+<body>
+
+	<div class="wrapper">
+ 
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<div class="header__right">
+						<a href="tel:+88001234567" class="phone-main"><i class="fas fa-phone"></i>8 (800) 123-45-67</a>
+						<a href="#" class="btn-social btn-social_viber"><i class="fab fa-viber"></i><span>Viber</span></a>
+						<a href="#" class="btn-social btn-social_whatsapp"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+						<a href="#" class="btn-social btn-social_telegram"><i class="fab fa-telegram-plane"></i><span>Telegram</span></a>
+						<span class="btn_nav">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="container">
+					<ul class="menu">
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Прайс-лист</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Условия сотрудничества</a></li>
+						<li><a href="#">Вопрос/Ответ</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="delivery">
+			<div class="container">
+				<div class="row row_delivery">
+					<div class="col-lg-4 col-md-6">
+						<div class="item-delivery">
+							<div class="item-delivery__image">
+								<img src="img/delivery-truck.svg" alt="alt" />
+							</div>
+							<p class="title-section">Доставка</p> 
+							<ul>
+								<li>Доставка по Крыму бесплатно</li>
+								<li>Доставка по РФ с помощью транспортных компаний согласно тарифам оператора</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-delivery">
+							<div class="item-delivery__image">
+								<img src="img/debit-card.svg" alt="alt" />
+							</div>
+							<p class="title-section">Оплата</p> 
+							<ul>
+								<li>Наличными с предоставлением чека</li>
+								<li>На карту РНКБ, Сбербанк</li>
+								<li>На расчетный счет</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-delivery">
+							<div class="item-delivery__image">
+								<img src="img/clipboard.svg" alt="alt" />
+							</div>
+							<p class="title-section">Условия</p> 
+							<ul>
+								<li>При доставке по Крыму - оплата за товар производится при получении товара или по предоплате</li>
+								<li>При доставке по РФ осуществляется 100% предоплата за товар</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="question-feedback">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<div class="question-form-items">
+							<form class="question-form">
+								<h2 class="title-section">Задать свой вопрос</h2>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input type="text" placeholder="Имя">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="item-form">
+											<input class="input-phone" type="text" placeholder="+7 (___) ___-__-__">
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="item-form">
+											<textarea placeholder="Ваш вопрос"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class="qestion-form__button">
+									<button class="btn-main btn-question">Отправить</button>
+								</div>
+								<div class="checkbox-wrap">
+									<div class="checkbox checkbox_main">
+										<label>
+											<input type="checkbox" checked="checked">
+											<span class="checkbox-text">Согласие на обработку персональных данных</span>
+										</label>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12">
+						<ul class="footer-nav">
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">Прайс-лист</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Условия сотрудничества</a></li>
+							<li><a href="#">Вопрос/Ответ</a></li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-6 footer__center">
+						<a href="#" class="logo">
+							<img src="img/logo2.svg" alt="alt">
+						</a>
+						<div class="title-social">Соцсети</div>
+						<ul class="footer-social">
+							<li><a href="#"><i class="fab fa-vk"></i></a></li>
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 footer__right col-md-6">
+						<div class="wrap-footer-contacts">
+							<a href="tel:+88001234567" class="phone-footer">8 (800) 123-45-67</a>
+							<br>
+							<ul class="footer-contacts">
+								<li><a href="#"><i class="fab fa-viber"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+								<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-6">
+							<a href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="col-lg-3 col-6 footer__location">г. Симферополь © Copyright  2020 г.</div>
+						<div class="col-lg-3 col-6"><div class="copy">Сделано в  <img src="img/copy.svg" alt="alt"></div></div>
+						<div class="col-lg-3 col-6 align_right">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="js/common.js?ver=1.7"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
