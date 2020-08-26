@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-
-
 	//плавный скролл
 	$(".article__list li a").mPageScroll2id();
 

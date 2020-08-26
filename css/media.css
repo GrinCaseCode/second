@@ -519,8 +519,6 @@ font-size: 20px;
     .item-feature__name {
     width: 193px;
 }
-
-
 .product-item {
     padding-left: 15px;
     padding-right: 15px;
@@ -543,9 +541,6 @@ font-size: 20px;
 .product-pay__items {
     left: 15px;
 }
-
-
-
 .tabs-card li {
     width: 50%;
 }
