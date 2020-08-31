@@ -401,6 +401,9 @@ font-size: 20px;
 .item-service {
     margin: 0px auto;
 }
+.slider-services {
+    margin-bottom: 25px;
+}
 }
 
 
@@ -608,6 +611,10 @@ font-size: 20px;
 .company-feedback .block-consult {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.slider-services {
+    margin-bottom: 0px;
 }
 
 }
